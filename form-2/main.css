@@ -1,0 +1,156 @@
+body {
+    background:#373737;
+  }
+ 
+
+  .login-form {
+    width: 40%;
+    float:left;
+    padding: 50px !important;
+    margin: auto;
+    
+  }
+  
+  .login-form .field {
+    margin: auto;
+    background: linear-gradient(red);
+    padding: 5px;
+    box-shadow: inset 0 1px red, 0 3px 3px #222;
+    border-radius: 3px;
+    margin-bottom: 9px;
+  }
+  
+  .login-form .field input {
+    display: block;
+    width: 560px;
+    margin: 5px;
+    padding: 3px;
+    font-size: 19px;
+    font-family: italic;
+    font-weight: 600;
+    box-shadow: 0 1px red, inset 0 3px 5px #aaa;
+    border-radius: 5px;
+    color: black;
+  }
+  
+  .login-form .field.with-btn {
+    width: 200px;
+    
+  }
+  
+  .login-form .field.with-btn input {
+    width: 188px;
+  }
+  
+  .login-form button {
+    border: solid #7f0000;
+    display: block;
+    width: 81px;
+    height: 50px;
+    margin-left: 260px;
+    float: left;
+    border-radius: 5px;
+    background: linear-gradient(#707070, #4b545b);
+    text-transform: uppercase;
+    font-family: Helvetica, Neue;
+    font-size: 13px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #11161a;
+    text-shadow: 0 1px 0 #727980;
+    box-shadow: 0 3px 3px grey, inset 0 0 0 0;
+  }
+  
+  .login-form button:hover {
+    background: linear-gradient(#bcbcbc, #aeaeae);
+  }
+  
+  .login-form button:active {
+    background: linear-gradient(red);
+  }
+  .login-form p{
+    font-style: italic;
+    font-size: large;
+    color:red;
+    display: block;
+    margin-left: 235px;
+    float: left;
+    border-radius: 5px;
+  }
+
+    .h1{
+        color: white;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        opacity: 0.8;
+        margin-top: 180px;;
+    }
+    .kayıt-form{
+        width: 40%;
+        float:left; 
+        display: block;
+        padding: 50px;
+        margin: auto;
+    }
+   
+    .kayıt-form .kayıt{
+      margin: auto;
+      
+      background: linear-gradient(red);
+      padding: 5px;
+      box-shadow: inset 0 1px red, 0 3px 3px #222;
+      border-radius: 3px;
+      margin-bottom: 9px;
+    }
+    .kayıt-form .kayıt input {
+        display: block;
+        width: 560px;
+        margin: 5px;
+        padding: 3px;
+        font-size: 19px;
+        font-family: italic;
+        font-weight: 600;
+        box-shadow: 0 1px red, inset 0 3px 5px #aaa;
+        border-radius: 5px;
+        color: black;
+    }
+    .kayıt-form button {
+        border: solid #7f0000;
+        display: block;
+        width: 277px;
+        height: 50px;
+        margin-left: 160px;
+        float: left;
+        border-radius: 5px;
+        background: linear-gradient(#ffffff, #4b545b);
+        text-transform: uppercase;
+        font-family: Helvetica, Neue;
+        font-size: 13px;
+        font-weight: bold;
+        cursor: pointer;
+        color: #11161a;
+        text-shadow: 0 1px 0 #727980;
+        box-shadow: 0 3px 3px grey, inset 0 0 0 0;
+        margin-bottom: 40px;
+      }
+      
+      .kayıt-form button:hover {
+        background: linear-gradient(#bcbcbc, #aeaeae);
+      }
+      
+      .kayıt-form button:active {
+        background: linear-gradient(red);
+      }
+      .kayıt-form p{
+        font-style: italic;
+    font-size: large;
+    color:red;
+    display: block;
+    margin-left: 235px;
+    float: left;
+    border-radius: 5px;
+      }
+    
+
+
+  

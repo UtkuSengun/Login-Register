@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+	<title>form</title>
+	<link rel="stylesheet" href="main.css"/>
+</head>
+<body>
+
+    
+      <div class="login-form">
+
+        <H1 class="h1">To Login</H1>
+
+        <div class="field">
+          <input type="text" class="txtemail" placeholder="E-Mail"/>
+        </div>
+          
+        <div class="field with-btn">
+          <input type="password" class="txtpass" placeholder="password"/>
+        </div>
+          
+        <button class="submit">Login</button>
+        <p class="message"></p>
+      </div>
+         
+      <div class="kayıt-form">
+
+        <H1 class="h1">Register</H1>
+
+        <div class="kayıt">
+            <input type="text" name="adınız" id="isim" placeholder="Name">
+        </div>
+
+        <div class="kayıt">
+          <input type="text" name="soyadınız" id="soyisim" placeholder="Surname">
+        </div>
+
+        <div class="kayıt">
+          <input type="text" name="email" id="mail" placeholder="E-mail">
+        </div>
+        
+        <div class="kayıt" id="cinsiyet" style="width: 170px; margin-left: 0;">
+          <select name="cinsiyet">
+            <option value="Kadın">Women</option>
+            <option value="Erkek">Man</option>
+            <option value="Belirsiz">I don't want to indicate</option>
+          </select>
+        </div>
+
+        <div class="kayıt">
+          <input type="tel" name="telNo" id="telNo" placeholder="Phone Number">
+        </div>
+
+        <div class="kayıt">
+          <input type="password" name="şifre" id="sifre" placeholder="password">
+        </div>
+        
+        <button onclick="kayit()">
+          Complete the  process
+        </button>
+        <p id="pa"></p>
+      </div> 
+
+<script src="storage.js"></script>
+</body>
+
+</html>
